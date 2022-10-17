@@ -9,9 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Shopping List</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Shopping List</h1>
+        <form method="post" action="ShoppingList">
+            Username: <input type="text" name="username" required="">
+        <input type="submit" value="Register">
+        <input type="hidden" name="action" value="Register">
+        </form>
     </body>
 </html>
